@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		554CD8DD2C16E20700BD4165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD8DC2C16E20700BD4165 /* AppDelegate.swift */; };
 		554CD8DF2C16E20700BD4165 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD8DE2C16E20700BD4165 /* SceneDelegate.swift */; };
-		554CD8E12C16E20700BD4165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD8E02C16E20700BD4165 /* ViewController.swift */; };
-		554CD8E42C16E20700BD4165 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 554CD8E32C16E20700BD4165 /* Base */; };
+		554CD8E12C16E20700BD4165 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD8E02C16E20700BD4165 /* MainViewController.swift */; };
 		554CD8E62C16E20700BD4165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554CD8E52C16E20700BD4165 /* Assets.xcassets */; };
 		554CD8E92C16E20700BD4165 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 554CD8E82C16E20700BD4165 /* Base */; };
 /* End PBXBuildFile section */
@@ -19,8 +18,7 @@
 		554CD8D92C16E20700BD4165 /* RocketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		554CD8DC2C16E20700BD4165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		554CD8DE2C16E20700BD4165 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		554CD8E02C16E20700BD4165 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		554CD8E32C16E20700BD4165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		554CD8E02C16E20700BD4165 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		554CD8E52C16E20700BD4165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		554CD8E82C16E20700BD4165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		554CD8EA2C16E20700BD4165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +54,62 @@
 		554CD8DB2C16E20700BD4165 /* RocketApp */ = {
 			isa = PBXGroup;
 			children = (
+				554CD8F02C16E22700BD4165 /* App */,
+				554CD8F22C16E29600BD4165 /* Scene */,
+				554CD8F12C16E28600BD4165 /* Resources */,
+			);
+			path = RocketApp;
+			sourceTree = "<group>";
+		};
+		554CD8F02C16E22700BD4165 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				554CD8DC2C16E20700BD4165 /* AppDelegate.swift */,
 				554CD8DE2C16E20700BD4165 /* SceneDelegate.swift */,
-				554CD8E02C16E20700BD4165 /* ViewController.swift */,
-				554CD8E22C16E20700BD4165 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		554CD8F12C16E28600BD4165 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				554CD8E52C16E20700BD4165 /* Assets.xcassets */,
 				554CD8E72C16E20700BD4165 /* LaunchScreen.storyboard */,
 				554CD8EA2C16E20700BD4165 /* Info.plist */,
 			);
-			path = RocketApp;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		554CD8F22C16E29600BD4165 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				554CD8F52C16E2FE00BD4165 /* Main */,
+				554CD8F42C16E2EF00BD4165 /* Launch */,
+				554CD8F32C16E2DE00BD4165 /* Settings */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		554CD8F32C16E2DE00BD4165 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		554CD8F42C16E2EF00BD4165 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		554CD8F52C16E2FE00BD4165 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				554CD8E02C16E20700BD4165 /* MainViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +172,6 @@
 			files = (
 				554CD8E62C16E20700BD4165 /* Assets.xcassets in Resources */,
 				554CD8E92C16E20700BD4165 /* Base in Resources */,
-				554CD8E42C16E20700BD4165 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554CD8E12C16E20700BD4165 /* ViewController.swift in Sources */,
+				554CD8E12C16E20700BD4165 /* MainViewController.swift in Sources */,
 				554CD8DD2C16E20700BD4165 /* AppDelegate.swift in Sources */,
 				554CD8DF2C16E20700BD4165 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +191,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		554CD8E22C16E20700BD4165 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				554CD8E32C16E20700BD4165 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		554CD8E72C16E20700BD4165 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,6 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RocketApp/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -275,6 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = RocketApp/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -294,22 +332,27 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JRA8SJKSWZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RocketApp/Info.plist;
+				INFOPLIST_FILE = RocketApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.azaiv.RocketApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.azaiv.rocket-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,22 +365,27 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JRA8SJKSWZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RocketApp/Info.plist;
+				INFOPLIST_FILE = RocketApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.azaiv.RocketApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.azaiv.rocket-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
