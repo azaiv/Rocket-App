@@ -12,6 +12,21 @@
 		554CD8E12C16E20700BD4165 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD8E02C16E20700BD4165 /* MainViewController.swift */; };
 		554CD8E62C16E20700BD4165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554CD8E52C16E20700BD4165 /* Assets.xcassets */; };
 		554CD8E92C16E20700BD4165 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 554CD8E82C16E20700BD4165 /* Base */; };
+		554CD8F82C16E95300BD4165 /* RocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD8F72C16E95300BD4165 /* RocketViewController.swift */; };
+		554CD8FA2C16EB3700BD4165 /* LaunchesCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD8F92C16EB3700BD4165 /* LaunchesCustomButton.swift */; };
+		554CD8FF2C16FBD300BD4165 /* RocketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD8FE2C16FBD300BD4165 /* RocketModel.swift */; };
+		554CD9032C16FC1500BD4165 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD9022C16FC1500BD4165 /* Constants.swift */; };
+		554CD9052C16FC5000BD4165 /* NetworkServie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD9042C16FC5000BD4165 /* NetworkServie.swift */; };
+		554CD9082C16FCAF00BD4165 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD9072C16FCAF00BD4165 /* NetworkError.swift */; };
+		554CD90A2C17019A00BD4165 /* RocketSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD9092C17019A00BD4165 /* RocketSection.swift */; };
+		554CD90C2C17294E00BD4165 /* LaunchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD90B2C17294E00BD4165 /* LaunchesViewController.swift */; };
+		554CD9122C173E2D00BD4165 /* UIFont + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD9112C173E2D00BD4165 /* UIFont + Ext.swift */; };
+		554CD9142C1740B900BD4165 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD9132C1740B900BD4165 /* SettingsViewController.swift */; };
+		554CD9162C1743B400BD4165 /* UIScreen + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD9152C1743B400BD4165 /* UIScreen + Ext.swift */; };
+		554CD9182C1744CC00BD4165 /* PhysicalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD9172C1744CC00BD4165 /* PhysicalCollectionView.swift */; };
+		554CD91A2C17494900BD4165 /* RocketInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD9192C17494900BD4165 /* RocketInfoView.swift */; };
+		554CD9202C174F3600BD4165 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 554CD91E2C174F3600BD4165 /* Localizable.strings */; };
+		554CD9232C1750BB00BD4165 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD9222C1750BB00BD4165 /* Texts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,22 @@
 		554CD8E52C16E20700BD4165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		554CD8E82C16E20700BD4165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		554CD8EA2C16E20700BD4165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554CD8F72C16E95300BD4165 /* RocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketViewController.swift; sourceTree = "<group>"; };
+		554CD8F92C16EB3700BD4165 /* LaunchesCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesCustomButton.swift; sourceTree = "<group>"; };
+		554CD8FE2C16FBD300BD4165 /* RocketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketModel.swift; sourceTree = "<group>"; };
+		554CD9022C16FC1500BD4165 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		554CD9042C16FC5000BD4165 /* NetworkServie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServie.swift; sourceTree = "<group>"; };
+		554CD9072C16FCAF00BD4165 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		554CD9092C17019A00BD4165 /* RocketSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketSection.swift; sourceTree = "<group>"; };
+		554CD90B2C17294E00BD4165 /* LaunchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewController.swift; sourceTree = "<group>"; };
+		554CD9112C173E2D00BD4165 /* UIFont + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Ext.swift"; sourceTree = "<group>"; };
+		554CD9132C1740B900BD4165 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		554CD9152C1743B400BD4165 /* UIScreen + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen + Ext.swift"; sourceTree = "<group>"; };
+		554CD9172C1744CC00BD4165 /* PhysicalCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalCollectionView.swift; sourceTree = "<group>"; };
+		554CD9192C17494900BD4165 /* RocketInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketInfoView.swift; sourceTree = "<group>"; };
+		554CD91F2C174F3600BD4165 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		554CD9212C174F4700BD4165 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		554CD9222C1750BB00BD4165 /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				554CD8F02C16E22700BD4165 /* App */,
+				554CD8FD2C16FBC900BD4165 /* Model */,
 				554CD8F22C16E29600BD4165 /* Scene */,
+				554CD9002C16FC0300BD4165 /* Service */,
+				554CD9012C16FC0D00BD4165 /* Data */,
 				554CD8F12C16E28600BD4165 /* Resources */,
 			);
 			path = RocketApp;
@@ -84,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				554CD8F52C16E2FE00BD4165 /* Main */,
+				554CD8F62C16E94100BD4165 /* Rocket */,
 				554CD8F42C16E2EF00BD4165 /* Launch */,
 				554CD8F32C16E2DE00BD4165 /* Settings */,
 			);
@@ -93,6 +128,7 @@
 		554CD8F32C16E2DE00BD4165 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				554CD9132C1740B900BD4165 /* SettingsViewController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -100,6 +136,7 @@
 		554CD8F42C16E2EF00BD4165 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
+				554CD90B2C17294E00BD4165 /* LaunchesViewController.swift */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -110,6 +147,79 @@
 				554CD8E02C16E20700BD4165 /* MainViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		554CD8F62C16E94100BD4165 /* Rocket */ = {
+			isa = PBXGroup;
+			children = (
+				554CD8FC2C16F92700BD4165 /* View */,
+				554CD8F72C16E95300BD4165 /* RocketViewController.swift */,
+			);
+			path = Rocket;
+			sourceTree = "<group>";
+		};
+		554CD8FC2C16F92700BD4165 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				554CD8F92C16EB3700BD4165 /* LaunchesCustomButton.swift */,
+				554CD9172C1744CC00BD4165 /* PhysicalCollectionView.swift */,
+				554CD9192C17494900BD4165 /* RocketInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		554CD8FD2C16FBC900BD4165 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				554CD8FE2C16FBD300BD4165 /* RocketModel.swift */,
+				554CD9092C17019A00BD4165 /* RocketSection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		554CD9002C16FC0300BD4165 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				554CD9042C16FC5000BD4165 /* NetworkServie.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		554CD9012C16FC0D00BD4165 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				554CD91D2C174F2600BD4165 /* Localization */,
+				554CD9102C173E2400BD4165 /* Extensions */,
+				554CD9062C16FCA600BD4165 /* Errors */,
+				554CD9022C16FC1500BD4165 /* Constants.swift */,
+				554CD9222C1750BB00BD4165 /* Texts.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		554CD9062C16FCA600BD4165 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				554CD9072C16FCAF00BD4165 /* NetworkError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		554CD9102C173E2400BD4165 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				554CD9112C173E2D00BD4165 /* UIFont + Ext.swift */,
+				554CD9152C1743B400BD4165 /* UIScreen + Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		554CD91D2C174F2600BD4165 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				554CD91E2C174F3600BD4165 /* Localizable.strings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +264,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 554CD8D02C16E20700BD4165;
 			productRefGroup = 554CD8DA2C16E20700BD4165 /* Products */;
@@ -171,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				554CD8E62C16E20700BD4165 /* Assets.xcassets in Resources */,
+				554CD9202C174F3600BD4165 /* Localizable.strings in Resources */,
 				554CD8E92C16E20700BD4165 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,9 +294,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554CD8F82C16E95300BD4165 /* RocketViewController.swift in Sources */,
 				554CD8E12C16E20700BD4165 /* MainViewController.swift in Sources */,
 				554CD8DD2C16E20700BD4165 /* AppDelegate.swift in Sources */,
+				554CD8FF2C16FBD300BD4165 /* RocketModel.swift in Sources */,
+				554CD90C2C17294E00BD4165 /* LaunchesViewController.swift in Sources */,
+				554CD9032C16FC1500BD4165 /* Constants.swift in Sources */,
+				554CD90A2C17019A00BD4165 /* RocketSection.swift in Sources */,
 				554CD8DF2C16E20700BD4165 /* SceneDelegate.swift in Sources */,
+				554CD9082C16FCAF00BD4165 /* NetworkError.swift in Sources */,
+				554CD9052C16FC5000BD4165 /* NetworkServie.swift in Sources */,
+				554CD9142C1740B900BD4165 /* SettingsViewController.swift in Sources */,
+				554CD9232C1750BB00BD4165 /* Texts.swift in Sources */,
+				554CD9182C1744CC00BD4165 /* PhysicalCollectionView.swift in Sources */,
+				554CD9162C1743B400BD4165 /* UIScreen + Ext.swift in Sources */,
+				554CD9122C173E2D00BD4165 /* UIFont + Ext.swift in Sources */,
+				554CD91A2C17494900BD4165 /* RocketInfoView.swift in Sources */,
+				554CD8FA2C16EB3700BD4165 /* LaunchesCustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +325,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		554CD91E2C174F3600BD4165 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554CD91F2C174F3600BD4165 /* en */,
+				554CD9212C174F4700BD4165 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -207,6 +342,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -271,6 +407,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

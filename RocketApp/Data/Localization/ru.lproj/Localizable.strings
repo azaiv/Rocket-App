@@ -1,0 +1,25 @@
+// - MARK: Info Section
+
+"first start title" = "Первый запуск";
+
+"country title" = "Страна";
+
+"price first launch title" = "Стоимость запуска";
+
+
+// - MARK: Stage
+
+"first stage header" = "Первая ступень";
+
+"second stage header" = "Вторая ступень";
+
+"count engine title" = "Количество двигателей";
+
+"fuel amount tons title" = "Количество топлива";
+
+"burn time sec title" = "Время сгорания";
+
+
+// - MARK: Launch
+
+"launch button title" = "Посмотреть запуски";
